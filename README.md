@@ -1,1 +1,1 @@
-# Snale_game
+# Snake_game
