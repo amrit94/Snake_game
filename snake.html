@@ -1,0 +1,48 @@
+<!-- 
+JAVASCRIPT/CANVAS SNAKE GAME PROJECT
+
+File Name    : snake.html
+Description  : snake game front-end
+Game Files   : snake.html, script.js, style.css
+Usage        : Adjust 'Speed' before clicking 'Play' button
+               Click 'Play' button to start game.
+               To play again click 'Reload' + 'Play' button
+
+Author       : Amrit Prasad
+Contact      : amrit.prasad@mountblue.io
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+        <div>
+                Author       : Amrit Prasad<div>
+        </div>
+                Contact      : amrit.prasad@mountblue.io
+        </div>
+    </div>
+<div class="button-box">
+    <input type="button" class="button" value="Play" onclick="play()">
+    <input type="button" class="button" value="Reload" onclick="reload()">
+    <input type="range" id="speed" value="0" min="5" max="80" step="5" onclick="speed()">
+</div>
+
+    <div class="box">
+        <div class="score">Score: <span id="score"></span></div>
+        <canvas id="gameCanvas" width="400" height="300"></canvas>
+    </div>
+    <div class="gmover"><span id="gameOver"></span></div>
+    <script src="script.js"></script>
+</div>
+</body>
+</html>

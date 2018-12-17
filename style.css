@@ -1,0 +1,43 @@
+/* JAVASCRIPT/CANVAS SNAKE GAME PROJECT
+
+  File Name    : style.css
+  Description  : snake game front-end
+  Game Files   : snake.html, script.js, style.css
+  Usage        : Adjust 'Speed' before clicking 'Play' button
+                 Click 'Play' button to start game.
+                 To play again click 'Reload' + 'Play' button
+
+  Author       : Amrit Prasad
+  Contact      : amrit.prasad@mountblue.io
+ */
+ body{
+     
+ }
+
+.container{
+    position: relative;
+    background-color: rgb(109, 99, 99);
+    width: 400px;
+    height: 400px;
+    padding: 5%;
+}
+.info{
+position: absolute;
+top:10px;
+}
+.button-box{
+    position: absolute;
+    top:50px;
+}
+.box{
+    position: relative;
+    top: 60px;
+    background-color: antiquewhite
+}
+#gameOver{
+    color: brown;
+}
+.gmover{
+    position: absolute;
+    bottom: 20px;
+}
